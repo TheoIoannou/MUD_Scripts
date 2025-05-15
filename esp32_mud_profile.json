@@ -1,0 +1,26 @@
+{
+    "mud-version": 1,
+    "mud-url": "http://example.com/mud/esp32-DDEF44.json",
+    "last-update": "2025-04-25T20:08:55Z",
+    "cache-validity": 3600,
+    "is-supported": true,
+    "systeminfo": "ESP32 test device",
+    "from-device-policy": [
+        {
+            "access": "permit",
+            "protocol": "icmp",
+            "to-ipv4": "8.8.8.8"
+        },
+        {
+            "access": "permit",
+            "protocol": "icmp",
+            "to-ipv4": "9.9.9.9"
+        },
+        {
+            "access": "permit",
+            "protocol": "icmp",
+            "to-ipv4": "1.1.1.1"
+        }
+    ],
+    "to-device-policy": []
+}
